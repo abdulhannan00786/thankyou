@@ -9,15 +9,11 @@ export default function FourthScreen({ onShowOverlay }) {
   const [showButton, setShowButton] = useState(false)
   const scrollRef = useRef(null)
 
-  const specialMessage = `My dearest love,
+  const specialMessage = `My dear friend,
 
-Every day with you feels like a beautiful dream that I never want to wake up from. You've brought so much joy, laughter, and love into my life that I can't imagine a world without you in it.
+You are like a precious chapter in the story of my life that God himself must have written with love. The day you entered my life, something inside me changed forever. You are not just a friend, you are a rare and priceless gift that life has blessed me with. Your smile is like sunshine that brightens even my darkest days, your words are like music that calms my restless heart, and your presence feels like home where I truly belong.
 
-Your smile lights up my darkest days, your laugh is my favorite melody, and your love is my greatest treasure. Thank you for being you - for being patient with me, for supporting my dreams, for making ordinary moments feel extraordinary.
-
-You are my best friend, my partner in crime, my safe haven, and my greatest adventure all rolled into one amazing person. I am so grateful that the universe brought us together.
-
-I love you more than words can express, more than actions can show, and more than time can measure. You are my forever and always.`
+Sometimes I wonder how I was so lucky to have met you—perhaps it was destiny's most beautiful plan. You have given meaning to moments that once felt empty, and you've painted my life with colors I never knew existed. Thank you for walking into my life, for being you, and for making every day feel a little more special, a little more beautiful, and a lot more unforgettable. ❤️`
 
   const endingText = "There’s one last thing I wish could last forever…"
 

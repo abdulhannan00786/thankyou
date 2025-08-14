@@ -8,6 +8,7 @@ import ThirdScreen from "@/components/ThirdScreen"
 import FourthScreen from "@/components/FourthScreen"
 import HugOverlay from "@/components/HugOverlay"
 import RestartOverlay from "@/components/RestartOverlay"
+import MusicPlayer from "@/components/MusicPlayer"
 
 export default function Home() {
   const [currentScreen, setCurrentScreen] = useState(0)
@@ -56,6 +57,7 @@ export default function Home() {
 
       <HugOverlay show={showHugOverlay} onClose={handleHugClose} />
       <RestartOverlay show={showRestartOverlay} onRestart={handleRestart} />
+      <MusicPlayer />
     </div>
   )
 }
